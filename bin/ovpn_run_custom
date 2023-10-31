@@ -1,4 +1,6 @@
 #!/bin/bash
+/bin/bash /usr/local/bin/init_openvpn_data.sh
+
 cd /etc/openvpn
 mkdir -p /dev/net
 if [ ! -c /dev/net/tun ]; then

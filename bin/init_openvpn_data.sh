@@ -37,4 +37,3 @@ init_vpn_server() {
 init_files
 init_ca
 init_vpn_server
-easyrsa gen-crl # for generating CRL file in /etc/openvpn/pki/crl.pem
